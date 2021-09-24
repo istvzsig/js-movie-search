@@ -1,0 +1,41 @@
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: black;
+}
+
+/*animations*/
+
+.fadeIn
+{
+    animation: fadein 500ms ease-in;
+}
+
+.fadeOut
+{
+    animation: fadeout 500ms ease-in;
+}
+
+@keyframes fadein
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout
+{
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

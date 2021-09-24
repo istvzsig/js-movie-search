@@ -1,0 +1,64 @@
+#cardContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie_card
+{
+    position: relative;
+    max-width: 80%;
+    padding: 1rem;
+    /*border-bottom: 1px solid rgba(0,0,0,.1);*/
+    /*width: 400px;*/
+    min-width: calc(100% / 3);
+    max-width: calc(100% / 3);
+    /*overflow: hidden;*/
+}
+
+.movie_card *
+{
+    margin-bottom: 1rem;
+}
+
+.movie_card p
+{
+    line-height: 1.5;
+}
+
+.movie_card img {
+    max-width: 100%;
+}
+
+.card_hover_details
+{
+    position: absolute;
+    background: black;
+    padding: 1rem;
+
+    color: white;
+    z-index: 1000;
+}
+
+.links_bar
+{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links_bar a
+{
+        height: 30px;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+}
+
+.movie_card__release_data
+{
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
