@@ -4,6 +4,6 @@ const ROOT = document.getElementById('__root__');
 
 const APP = new App(ROOT);
 
-const sandboxURL = 'https://tmdb.sandbox.zoosh.ie/dev/grphql';
+const sandboxURL = false;
 
 APP.searchMovie(sandboxURL);
