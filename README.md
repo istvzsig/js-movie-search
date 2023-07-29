@@ -1,4 +1,4 @@
-# Movie Library Project
+# Movie Library Project (VIP)
 
 This is a simple Vanilla JavaScript project that demonstrates my skills with JavaScript and my ability to work with a movie library database using GraphQL.
 
